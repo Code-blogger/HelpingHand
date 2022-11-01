@@ -1,0 +1,172 @@
+main#main-section article div#interactions-btns button#btn-picture,
+main#main-section article div#interactions-btns button#btn-video,
+main#main-section article div#interactions-btns button#btn-document {
+    padding: 26px 30px;
+}
+
+main#main-section article div#interactions-btns button#btn-picture:hover,
+main#main-section article div#interactions-btns button#btn-video:hover,
+main#main-section article div#interactions-btnsbutton#btn-document:hover {
+    background: #f3f6f8;
+}
+
+
+/**************************************************************************
+    main container > main section > FEED POSTS
+**************************************************************************/
+
+.action-button {
+    width: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+    background: white;
+    border: 1px solid #d11124;
+    color: #d11124;
+    padding: 12px 5px;
+    margin: 10px 10px 10px 650px;
+    font-size: 16px;
+    display: inline-block;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.action-button:hover,
+.action-button:focus {
+    box-shadow: 0 10px 30px 1px rgba(0, 0, 0, 0.2);
+}
+
+main#main-section article {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    margin-bottom: 8px;
+    max-width: 500px;
+}
+
+main#main-section article div#post-author {
+    display: flex;
+    padding: 14px 14px 0;
+    margin-top: 10px;
+}
+
+main#main-section article div#post-author a {
+    flex: 1;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+main#main-section article div#post-author>div {
+    cursor: pointer;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main#main-section article div#post-author>div:hover {
+    background: #e6ae9a;
+}
+
+main#main-section article div#post-author>div>span {
+    padding: 2px;
+    font-size: 4px;
+}
+
+main#main-section article div#post-author a>div {
+    display: flex;
+}
+
+main#main-section article div#post-author a>div img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 3px solid transparent #d11124;
+    margin-right: 6px;
+}
+
+main#main-section article div#post-author a>div>div {
+    display: flex;
+    align-items: center;
+    margin-top: 1px;
+}
+
+main#main-section article div#post-author a>div>div div strong {
+    color: #000;
+    font-size: 20px;
+}
+
+main#main-section article div#post-author a>div>div div strong:hover {
+    color: #d11124;
+    text-decoration: underline;
+}
+
+main#main-section article div#interactions-amount {
+    margin: 7px 16px;
+    border-bottom: 1px solid #e6e9ec;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+main#main-section article div#interactions-amount span.fas {
+    font-size: 16px;
+    padding: 3px;
+    margin-right: 3px;
+    border-radius: 50%;
+    color: #f3f6f8;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3), 1px -1px 0 rgba(0, 0, 0, 0.3), -1px 1px 0 rgba(0, 0, 0, 0.3), 1px 1px 0 rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+main#main-section article div#interactions-btns {
+    margin: 4px 10px;
+    display: flex;
+}
+
+main#main-section article div#interactions-btns button {
+    border: 0;
+    background: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: bold;
+    font-size: 16px;
+    padding: 2px 5px;
+    height: 33px;
+    margin: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+main#main-section article div#interactions-btns button:hover {
+    background: white;
+    color: rgba(231, 76, 60, 0.8);
+}
+
+main#main-section article div#interactions-btns button span.far {
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+textarea:hover {
+    background-color: rgb(233, 225, 225);
+}
+
+textarea {
+    overflow: auto;
+    resize: vertical;
+    height: 400px;
+    margin: 30px 50px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #d11124;
+    border: 1px solid #ced4da;
+    border-radius: 3px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}

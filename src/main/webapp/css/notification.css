@@ -1,0 +1,80 @@
+main#main-section article {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    margin-bottom: 8px;
+}
+
+main#main-section article div#post-author {
+    display: flex;
+    padding: 10px 14px;
+    margin: 10px;
+    width: 800px;
+}
+
+main#main-section article div#post-author a {
+    flex: 1;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+main#main-section article div#post-author>div {
+    cursor: pointer;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+main#main-section article div#post-author>div:hover {
+    background: #e6ae9a;
+}
+
+main#main-section article div#post-author>div>span {
+    padding: 2px;
+    font-size: 4px;
+}
+
+main#main-section article div#post-author a>div {
+    display: flex;
+}
+
+main#main-section article div#post-author a>div img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 3px solid transparent #d11124;
+    margin-right: 6px;
+}
+
+main#main-section article div#post-author a>div>div {
+    display: flex;
+    align-items: center;
+    margin-top: 1px;
+}
+
+main#main-section article div#post-author a>div>div>span {
+    line-height: 10px;
+    margin-top: 4px;
+    margin-left: 1px;
+}
+
+main#main-section article div#post-author a>div>div div strong {
+    color: #000;
+    line-height: 10px;
+    font-size: 15px;
+}
+
+main#main-section article div#post-author a>div>div div strong:hover {
+    color: #d11124;
+    text-decoration: underline;
+}
+
+main#main-section article div#post-author a>div>div div span span {
+    font-size: 14px;
+    font-weight: bold;
+}
